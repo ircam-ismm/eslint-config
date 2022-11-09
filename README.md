@@ -8,7 +8,7 @@ Shareable eslint config for the Ircam ISMM team JavaScript projects, see [https:
 1. Install the package
 
 ```sh
-npm install --save-dev @ircam/eslint-config
+npm install --save-dev eslint @ircam/eslint-config
 ```
 
 2. Create a `.eslintrc` file in your project containing
@@ -23,7 +23,7 @@ npm install --save-dev @ircam/eslint-config
 
 ```json
 "scripts": {
-  "lint": "npx eslint src"
+  "lint": "eslint src"
 }
 ```
 

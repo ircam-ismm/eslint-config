@@ -15,7 +15,10 @@ module.exports = {
     "indent": [
       "error",
       2,
-      { "SwitchCase": 1 }
+      {
+        "SwitchCase": 1,
+        "offsetTernaryExpressions": true,
+      }
     ],
     "linebreak-style": [
       "error",
@@ -53,6 +56,17 @@ module.exports = {
     "array-bracket-spacing": [
       "error",
       "never"
-    ]
+    ],
+    "curly": [
+      "error",
+      "all",
+    ],
+    "brace-style": [
+      "error",
+      "1tbs",
+    ],
+
+    // allow rules
+    "no-loss-of-precision": "off"
   }
 }

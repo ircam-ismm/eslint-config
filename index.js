@@ -33,6 +33,10 @@ module.exports = {
       "error",
       "always"
     ],
+    "keyword-spacing": [
+      "error",
+      { "before": true, "after": true }
+    ],
     "space-before-function-paren": [
       "error",
       { "anonymous": "never", "named": "never", "asyncArrow": "always" }

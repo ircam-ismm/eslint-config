@@ -18,6 +18,7 @@ module.exports = {
       {
         "SwitchCase": 1,
         "offsetTernaryExpressions": true,
+        "ignoredNodes": ["TemplateLiteral *"],
       }
     ],
     "linebreak-style": [

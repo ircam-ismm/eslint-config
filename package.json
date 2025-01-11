@@ -1,6 +1,6 @@
 {
   "name": "@ircam/eslint-config",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "description": "eslint config for the Ircam ISMM team javascript projects",
   "author": "Benjamin Matuszewski",
   "license": "BSD-3-Clause",

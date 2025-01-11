@@ -11,21 +11,26 @@ Shareable eslint config for the Ircam ISMM team JavaScript projects, see [https:
 npm install --save-dev eslint @ircam/eslint-config
 ```
 
-2. Create a `.eslintrc` file in your project containing
+2. Create a `eslint.config.js` file in your project containing
 
-```
-{
-  "extends": "@ircam"
-}
+```js
+export { default } from '@ircam/eslint-config';
 ```
 
-3. In `package.json`, add the following command to your npm script
+3. In the `package.json`, add the following command to your npm scripts
 
 ```json
 "scripts": {
-  "lint": "eslint src"
+  "lint": "npx eslint src"
 }
 ```
+
+## Notes
+
+From `v2.0.0` this package targets `eslint` >= 9
+
+For previous version of `eslint` use the `v1.x.x` of this package
+
 
 ## License
 
